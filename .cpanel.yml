@@ -1,0 +1,7 @@
+---
+  deployment:
+    tasks:
+      - export DEPLOYPATH=/home/gorel/public_html/soft.aywsolution.com/
+      - /bin/rsync -av public/ $DEPLOYPATH
+      - export DEPLOYPATH=/home/gorel/soft/
+      - /bin/rsync -av ./ $DEPLOYPATH
