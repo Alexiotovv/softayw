@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ProductosController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/clientes', function () {
+    return view('home_panel');
+});
+
 Route::get('/login', function () {
     return view('login');
 });
+
+//Productos
+Route::get('productos/index',[ProductosController::class,'index'])->name('productos_index');
