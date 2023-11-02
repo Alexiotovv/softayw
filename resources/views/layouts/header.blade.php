@@ -12,18 +12,18 @@
                       </li>
                       <li><a href="#">Nuestros Servicios</a>
                           <ul>
-                              <li><a href="#">Desarrollo de Software</a></li>
-                              <li><a href="#">Automatización de procesos</a></li>
-                              <li><a href="#">Hosting y Servidores</a></li>
-                              <li><a href="#">Cursos de Desarrollo Software</a></li>
-                              <li><a href="#">Seguridad y Control</a></li>
+                                <li><a href="#">Desarrollo de Software</a></li>
+                                <li><a href="#">Automatización de procesos</a></li>
+                                <li><a href="#">Hosting y Servidores</a></li>
+                                <li><a href="#">Cursos de Desarrollo Software</a></li>
+                                <li><a href="#">Seguridad y Control</a></li>
                           </ul>
                       </li>
-                      <li><a href="#">Blog</a>
-                          <ul>
-                              <li><a href="#">Novedades Tecnológicas</a></li>
-                              <li><a href="#">Blogs</a></li>
-                          </ul>
+                      <li><a href="https://tienda.aywsolution.com">Tienda</a>
+                          {{-- <ul>
+                              <li><a href="#"></a></li>
+                              
+                          </ul> --}}
                       </li>
                       <li><a href="#">Contacto</a>
                       </li>
